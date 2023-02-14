@@ -1,3 +1,122 @@
-h1 {
-  color: red;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2.2rem;
+
+  /* for footer */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 120rem;
+  margin: auto;
+}
+
+/* NAV BAR */
+
+header {
+  background-color: rgb(25, 25, 26);
+}
+
+.nav {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  width: 24rem;
+  justify-content: space-around;
+}
+
+.mm {
+  margin-bottom: 6rem;
+}
+/* HEAD */
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.head-box p {
+  font-size: 2.6rem;
+  margin-bottom: 1.4rem;
+}
+
+.head-box h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 1.8rem;
+}
+
+button {
+  padding: 1.2rem;
+  text-transform: uppercase;
+  border-radius: 10%;
+  border: none;
+  box-shadow: 3px 5px 8px grey;
+  background-color: rgb(224, 224, 224);
+  font-weight: 600;
+}
+
+span {
+  color: rgb(5, 184, 238);
+}
+
+.img-box {
+  width: 50rem;
+}
+
+.img-box img {
+  display: block;
+  width: 100%;
+  transition: all 1s;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  margin-top: auto;
+}
+
+/* about - img */
+
+.txt {
+  width: 60rem;
+}
+
+.ib2 {
+  width: 42rem;
+  border-radius: 3%;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.ib2 img:hover {
+  transform: scale(1.1);
+}
+
+.ib2:hover {
+  box-shadow: 3px 5px 10px rgb(54, 54, 54);
 }
