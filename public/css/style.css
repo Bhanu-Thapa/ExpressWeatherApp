@@ -76,6 +76,7 @@ button {
   box-shadow: 3px 5px 8px grey;
   background-color: rgb(224, 224, 224);
   font-weight: 600;
+  cursor: pointer;
 }
 
 span {
@@ -119,4 +120,14 @@ footer {
 
 .ib2:hover {
   box-shadow: 3px 5px 10px rgb(54, 54, 54);
+}
+
+/* 404 error page */
+.cen {
+  justify-content: center;
+}
+
+.button-mid {
+  display: block;
+  text-align: center;
 }
