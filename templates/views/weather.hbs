@@ -15,16 +15,17 @@
 
         <div class="tempInformation">
           <div class="top_layer">
-            <p id="day">Tuesday</p>
-            <p id="Today_data">13 OCT</p>
+            <p id="cday">Tuesday</p>
+            <p id="dm">13 OCT</p>
           </div>
 
-          <div class="main_layer">
+          <div class="main_layer ">
             <p id="city_name">Get Output Here</p>
-            <div class="middle_layer data_hide">
-              <p id="temp"><span>0</span> <sup>o</sup>C</p>
+             <div class="middle_layer data_hide">
+              <p id="temp"><span id="temp_real_val">0</span> <sup>o</sup>C</p>
               <p id="temp_status"><i class="fa-solid fa-cloud" aria-hidden="true"></i></p>
             </div>
+           
           </div>
         </div>
 
@@ -34,5 +35,7 @@
     </main>
 
    {{>footer}}
+
+   <script src="js/main.js"></script>
   </body>
 </html>

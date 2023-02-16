@@ -200,7 +200,7 @@ footer {
 }
 
 .main_layer p {
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: left;
   color: #fff;
 }
@@ -209,11 +209,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
 }
 
 .middle_layer p {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: 900;
 }
 
@@ -223,4 +223,72 @@ footer {
 
 i {
   color: #009ad8;
+}
+
+/* data hide */
+
+.data_hide {
+  visibility: hidden;
+}
+
+/* media query */
+
+@media (max-width: 34em) {
+  .container {
+    width: 35rem;
+    margin: auto;
+  }
+
+  .heading {
+    flex-direction: column;
+    height: 60rem;
+  }
+
+  .temp_form input[type='text'] {
+    width: 80%;
+    padding: 1rem 2rem;
+  }
+
+  .temp_form input[type='submit'] {
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(-50%, -50%);
+  }
+
+  .tempInformation {
+    width: 35rem;
+  }
+
+  .main_layer p {
+    text-align: center;
+  }
+
+  .middle_layer p {
+    font-size: 4rem;
+    font-weight: 900;
+  }
+
+  .ib2 {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+  }
+
+  .txt {
+    width: 35rem;
+  }
+
+  .meq h1 {
+    font-size: 4.6rem;
+  }
+
+  .cr {
+    flex-direction: column-reverse;
+  }
+
+  .main_layer {
+    padding: 2rem 4rem;
+  }
 }
